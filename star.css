@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 12cm;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    /* margin-bottom: 500px; */
+    padding: 1rem;
+    font-size: 4vh;
+
+}
+
+.card {
+    max-width: 33rem;
+    background: white;
+    margin: 0 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 50px hsla(166, 85%, 41%, 0.78);
+    width: 100%;
+    height: 15rem;
+    border-radius: 1.5rem;
+}
+
+.star {
+    font-size: 10vh;
+    cursor: pointer;
+    padding: 1%;
+    color: black;
+}
+
+.one {
+    color: rgb(255, 0, 0);
+}
+
+.two {
+    color: orange;
+}
+
+.three {
+    color: rgb(41, 99, 156);
+}
+
+.four {
+    color: rgb(255, 255, 0);
+}
+
+.five {
+    color: rgb(24, 159, 14);
+}
