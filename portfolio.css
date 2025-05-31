@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(to right, #07570a, #6433ec);
+    color: white;
+    margin-left: 10px;
+
+}
+
+.heading {
+    /* background: linear-gradient(to right, #17031c, #c433e8); */
+    background: rgb(92, 83, 130);
+    display: flex;
+}
+
+.name {
+    margin: 1px;
+    position: relative;
+    left: 23px;
+    color:  #e2e0bc;
+}
+
+.color {
+    background: linear-gradient(to right, #00f0ff, #a000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.a {
+    margin-left: 10px;
+    color: blue;
+}
+.skill{
+    position: relative;
+    bottom: 8px;
+}
+.text {
+    color: rgb(153, 129, 129);
+}
+
+.container {
+    position: relative;
+    top: 30px;
+}
+
+.ids {
+    position: relative;
+    top: 15px;
+}
+
+.contact1 {
+    font-size: 25px;
+    border-radius: 10px;
+    background: rgb(145, 189, 235);
+    padding: 5px 5px;
+    border: none;
+}
+
+.project {
+    font-size: 25px;
+    border-radius: 10px;
+    background: rgb(2, 2, 50);
+    color: white;
+    padding: 5px 5px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: -160px;
+    left: 550px;
+    border-radius: 100px;
+    /* opacity: 1.9; */
+    transform: rotate(5deg);
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    left: 350px;
+    color: #00f0ff;
+}
+
+nav a {
+    color: #0023ff;
+    position: relative;
+    top: 5px;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+#contact p a{
+    color: #0023ff;
+}
+
+#project1{
+    margin: 10px;
+}
+.game{
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+} 
+.box1{
+    height: auto;
+    overflow-x: auto;
+}
+
+.game1{
+    position: relative;
+    left: 400px;
+    bottom: 225px;
+} 
+#me{
+    margin: 10px;
+}
